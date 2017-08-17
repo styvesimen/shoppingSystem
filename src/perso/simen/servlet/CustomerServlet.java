@@ -44,10 +44,8 @@ public class CustomerServlet extends HttpServlet {
 		
 		try{
 			
-			
 			HttpSession session = request.getSession();
 //			Customer customer = (Customer) session.getAttribute("customer");
-			
 			
 			out = response.getWriter();
 			CustomerDao customerDao = new CustomerImpl();
